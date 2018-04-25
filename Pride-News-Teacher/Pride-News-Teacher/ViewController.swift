@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBAction func ClickIt(_ sender: UIButton, forEvent event: UIEvent) {
+        Thing.text = ("HI")
+    }
+    @IBOutlet weak var Thing: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
