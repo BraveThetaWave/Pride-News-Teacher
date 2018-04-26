@@ -14,6 +14,8 @@
 		BC1BAB262090F6770084C0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1BAB242090F6770084C0A6 /* LaunchScreen.storyboard */; };
 		BC1BAB312090F6770084C0A6 /* Pride_News_TeacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BAB302090F6770084C0A6 /* Pride_News_TeacherTests.swift */; };
 		BC1BAB3C2090F6770084C0A6 /* Pride_News_TeacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1BAB3B2090F6770084C0A6 /* Pride_News_TeacherUITests.swift */; };
+		BC74DD3820924BC9007B0A57 /* SendNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC74DD3720924BC9007B0A57 /* SendNotifications.swift */; };
+		BCE0DD9C2092495E00C9473F /* AssignClubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE0DD9B2092495E00C9473F /* AssignClubs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BC1BAB372090F6770084C0A6 /* Pride-News-TeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pride-News-TeacherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1BAB3B2090F6770084C0A6 /* Pride_News_TeacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pride_News_TeacherUITests.swift; sourceTree = "<group>"; };
 		BC1BAB3D2090F6770084C0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC74DD3720924BC9007B0A57 /* SendNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNotifications.swift; sourceTree = "<group>"; };
+		BCE0DD9B2092495E00C9473F /* AssignClubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignClubs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				BC1BAB1B2090F6770084C0A6 /* AppDelegate.swift */,
 				BC1BAB1D2090F6770084C0A6 /* ViewController.swift */,
+				BCE0DD9B2092495E00C9473F /* AssignClubs.swift */,
+				BC74DD3720924BC9007B0A57 /* SendNotifications.swift */,
 				BC1BAB1F2090F6770084C0A6 /* Main.storyboard */,
 				BC1BAB222090F6770084C0A6 /* Assets.xcassets */,
 				BC1BAB242090F6770084C0A6 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE0DD9C2092495E00C9473F /* AssignClubs.swift in Sources */,
 				BC1BAB1E2090F6770084C0A6 /* ViewController.swift in Sources */,
+				BC74DD3820924BC9007B0A57 /* SendNotifications.swift in Sources */,
 				BC1BAB1C2090F6770084C0A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
